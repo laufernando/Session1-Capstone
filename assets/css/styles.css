@@ -25,7 +25,7 @@ footer {
 
   .card{
     width: 20%;
-    height: 330px;
+    height: auto;
     margin: 2.5%;
     padding-top: 17%;
     float: left;
@@ -41,6 +41,9 @@ footer {
     background-image: url('../images/Sneakers1.jpg');
   }
 
+  #lacosete_Men_Sneakers:hover{
+    background-image: url('../images/Sneakers1_1.jpg');
+  }
   #Men_Tom{
     background-image: url('../images/Sneakers2.jpg');
   }

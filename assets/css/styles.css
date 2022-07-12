@@ -1,7 +1,8 @@
 footer {
-    text-align: center;
-    padding: 3px;
-    color: white;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: rgb(170, 167, 167);
   }
   h1{
     text-align: center;
@@ -20,4 +21,33 @@ footer {
   .body_Text{
     padding: 5px;
 
+  }
+
+  .card{
+    width: 20%;
+    height: 330px;
+    margin: 2.5%;
+    padding-top: 17%;
+    float: left;
+    background-color:white;
+    text-align: center;
+    color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+
+  #lacosete_Men_Sneakers{
+    background-image: url('../images/Sneakers1.jpg');
+  }
+
+  #Men_Tom{
+    background-image: url('../images/Sneakers2.jpg');
+  }
+
+  #Men_Puma{
+    background-image: url('../images/Sneakers3.jpg');
+  }
+  #Lace-Up_Men_Sneakers{
+    background-image: url('../images/Sneakers4.jpg');
   }

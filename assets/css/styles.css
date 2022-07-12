@@ -1,0 +1,23 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  #imgPortada{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  p{
+    color:white;
+  }
+
+  .body_Text{
+    padding: 5px;
+
+  }

@@ -33,7 +33,7 @@
               <a class="nav-link" href="Contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Registration.html">
+              <a class="nav-link active" href="Registration.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-plus" viewBox="0 0 16 16">
                   <path
@@ -45,7 +45,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Login.html">
+              <a class="nav-link " href="Login.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-circle" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -64,25 +64,57 @@
     <br />
     <form>
       <div class="container">
-        <h2>Login</h2>
-        <br />
-        <div class=" mb-3" id="form_login">
-          <label for="inp_email" class="form-label">Email address*</label>
-          <input type="email" class="form-control" id="inp_email" aria-describedby="emailHelp" required>
-        </div>
-        <div class="mb-3">
-          <label for="inp_password" class="form-label">Password*</label>
-          <input type="password" class="form-control" id="inp_password" required>
-        </div>
-        <button type="submit" class="btn btn-secondary centrado">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
-            viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-            <path fill-rule="evenodd"
-              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-          </svg>
-          Login
-        </button>
+        <h2>Registration User</h2>
+      </div>
+      <div class="col registration_img container">
+        <img src="https://i.pinimg.com/736x/c3/26/ef/c326ef261458b34979f966685f3d4983.jpg" class="d-block w-100"
+          alt="Portada 1">
+      </div>
+      <div class="col registration container">
+
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Name*</span>
+
+          <input type="text" class="form-control" id="inp_name" required>
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Last Name*</span>
+          <input type="text" class="form-control" id="inp_name" required>
+        </label>
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Email address*</span>
+          <input type="email" class="form-control" id="inp_email" placeholder="name@example.com" required>
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">City</span>
+          <input name="city" type="text" class="form-control" placeholder="Mexico City" />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">State/Province</span>
+          <input name="state" type="text" class="form-control" placeholder="Cuahutemoc" />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Zip/Postal code</span>
+          <input name="zip" type="text" class="form-control" placeholder="15410" />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Country</span>
+          <input name="country" type="text" class="form-control" placeholder="Mexico" />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Telephone</span>
+          <input name="telephone" type="text" class="form-control" placeholder="852-824-2022" />
+        </label>
+
+
+        <button type="submit" class="btn btn-secondary centrado">Registration</button>
       </div>
     </form>
   </main>

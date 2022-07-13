@@ -20,7 +20,7 @@ p {
 
 }
 
-.card {
+.Article {
   width: 20%;
   height: auto;
   margin: 2.5%;
@@ -32,6 +32,11 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 10px;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    word-wrap: normal;
 }
 
 #lacosete_Men_Sneakers {
@@ -59,6 +64,28 @@ body {
 }
 
 
+.login {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  padding: 2%;
+  width: 55%;
+}
+
+.login_img {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+  padding: 2%;
+  width: 38%;
+}
+
+.login_img > img{
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+
 .centrado {
   display: block;
   margin-left: auto;
@@ -82,7 +109,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
+  .Article {
     height: 236px;
   }
 
@@ -90,7 +117,20 @@ body {
     margin: 1% 0 1% 0%;
     margin-left: 0 !important;
   }
-
+  .login {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .login_img {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   .registration_img {
     float: none;
     width: 100%;

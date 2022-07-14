@@ -10,9 +10,14 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!--Inclide css global-->
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    function pagar(){
+      window.location.href="C:\Users\N0321482\capstone07-11-2022\Session1-Capstone\Shopping_Cart.html";
+    }
+  </script>
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark text-dark">
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -45,7 +50,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Login.html">
+              <a class="nav-link " href="Login.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-circle" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -74,65 +79,125 @@
     <br />
     <h1>These are our available models</h1>
     <br />
-    <section id="cards" class="page-row">
+    <div class="container">
+      <fieldset>
+        <legend>Top</legend>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="lacosete_Men_Sneakers" id="lacosete_Men_Sneakers" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>lacosete_Men_Sneaker</strong> </p>
+                  <p class="card-text text-dark">$53.99</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Men_Tom" id="Men_Tom" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Nike Men's Sneakers</strong> </p>
+                  <p class="card-text text-dark">$85.52</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+                <p class="card-text text-dark"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Men_Puma" id="Men_Puma" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Puma Men's Sneakers</strong> </p>
+                  <p class="card-text text-dark">$70.99</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Lace-Up_Men_Sneakers" id="Lace-Up_Men_Sneakers"  height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Lace-Up Men's Sneakers</strong> </p>
+                  <p class="card-text text-dark">$54.80</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Best price</legend>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Sneakers5" id="Sneakers5" width="100px" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Steve Madden Fenta Sneaker</strong> </p>
+                  <p class="card-text text-dark">$60.05</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Sneakers6" id="Sneakers6" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>British Knights Metros Men's</strong> </p>
+                  <p class="card-text text-dark">$44.99</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+                <p class="card-text text-dark"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Sneakers7" id="Sneakers7" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Puma Uproar 'Spectra' </strong> </p>
+                  <p class="card-text text-dark">$89.00</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" alt="Sneakers8" id="Sneakers8" height="150px">
+              <div class="card-body">
+                <center>
+                  <p class="card-text text-dark"><strong>Joomra Men's Stylish </strong> </p>
+                  <p class="card-text text-dark">$72.68</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                    data-bs-target="#add_shopping_cart">buy now</button>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
 
-      <div class="Article" id="lacosete_Men_Sneakers">
-        <h4>lacosete Men's </h4>
-        <label>$$250.00</label>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-          data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="Men_Tom">
-        <h4>Toms Men's Sneakers</h4>
-        <label>$$150.00</label>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-          data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="Men_Puma">
-        <h4>Men's PUMA Sneakers </h3>
-          <label>$$299.00</label>
-          <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-            data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="Lace-Up_Men_Sneakers">
-        <h4>Men Lace-Up Front </h3>
-          <label>$$250.00</label>
-          <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-            data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="lacosete_Men_Sneakers">
-        <h4>lacosete Men's </h4>
-        <label>$$250.00</label>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-          data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article card" id="Men_Tom">
-        <h4>Toms Men's Sneakers</h4>
-        <label>$$150.00</label>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-          data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="Men_Puma">
-        <h4>Men's PUMA Sneakers </h3>
-          <label>$$299.00</label>
-          <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-            data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-      <div class="Article" id="Lace-Up_Men_Sneakers">
-        <h4>Men Lace-Up Front </h3>
-          <label>$$250.00</label>
-          <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
-            data-bs-target="#add_shopping_cart">buy</button>
-      </div>
-
-    </section>
   </main>
   <br />
   <footer>
@@ -175,7 +240,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yes</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" ><a class="nav-link" href="Shopping_Cart.html">Continue Shopping</a></button>
         </div>
       </div>
     </div>
